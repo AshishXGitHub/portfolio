@@ -356,6 +356,7 @@ article .icon {
 
 #projects {
   position: relative;
+
 }
 
 .color-container {
@@ -363,10 +364,16 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
+.about-containers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .project-img {
   border-radius: 2rem;
-  width: 350px;
-  height: 350px;
+  width: 15rem;
+  height: 22rem;
   object-fit: cover;
 }
 
@@ -379,14 +386,18 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+.span:hover{
+  text-color: white;
+}
 
 /* CONTACT */
 
 #contact {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 100vh;
 }
 
 .contact-info-upper-container {
@@ -423,6 +434,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
+  position: relative;
   height: 26vh;
   margin: 0 1rem;
 }
